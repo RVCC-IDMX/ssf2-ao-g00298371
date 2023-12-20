@@ -139,6 +139,7 @@ table {
 
 html {
   background-color: hsl(53deg, 100%, 95%);
+  scroll-behavior: smooth;
 }
 
 body {
@@ -216,7 +217,7 @@ svg {
 .skip-link {
   font-family: "Rockwell";
   font-size: 18pt;
-  color: hsl(68deg, 10%, 56%);
+  color: hsl(68deg, 10%, 40%);
 }
 
 a,
@@ -227,20 +228,29 @@ p a {
   font-weight: 600;
 }
 
-nav ul {
+.nav-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(10ch, 1fr));
   list-style: none;
   padding: 2;
   margin: 0;
   grid-gap: 1rem;
-  background-color: hsl(68deg, 10%, 56%);
+  background-color: hsl(68deg, 10%, 40%);
   border-radius: 1rem;
 }
 
-nav ul a {
+.nav-list a {
   text-decoration: none;
   color: white;
+}
+
+.nav-list a:hover,
+.nav-list a:focus {
+  color: hsl(68deg, 10%, 40%);
+  background-color: hsl(53deg, 100%, 95%);
+  border-radius: 0.5rem;
+  outline: none;
+  padding: 1em;
 }
 
 p {
