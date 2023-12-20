@@ -45,8 +45,16 @@
     box-sizing: border-box;
 }
 
+:root {
+    --black: 0, 0%, 0%;
+    --white: 0, 0%, 100%;
+    --bg-color: 53, 100%, 95%;
+    --nav-color: 68, 10%, 40%;
+    --link-color: 156, 92%, 24%;
+}
+
 html {
-    background-color: hsl(53, 100%, 95%);
+    background-color: hsl((var(--bg-color)));
     scroll-behavior: smooth;
 }
 
@@ -54,7 +62,7 @@ body {
     margin: 0;
     padding: 1rem;
     line-height: 1.5;
-    color: hsl(240, 24%, 14%);
+    color: hsl((var(--black)));
 }
 
 body h1 {
@@ -127,14 +135,14 @@ svg {
 .skip-link {
     font-family: "Rockwell";
     font-size: 18pt;
-    color: hsl(68, 10%, 40%);
+    color: hsl((var(--nav-color)));
 }
 
 a,
 li a,
 p a {
     text-decoration: none;
-    color: hsl(156, 92%, 24%);
+    color: hsl((var(--link-color)));
     font-weight: 600;
 }
 
@@ -145,19 +153,19 @@ p a {
     padding: 2;
     margin: 0;
     grid-gap: 1rem;
-    background-color: hsl(68, 10%, 40%);
+    background-color: hsl((var(--nav-color)));
     border-radius: 1rem;
 }
 
 .nav-list a {
     text-decoration: none;
-    color: white;
+    color: hsl ((var(--white)));
 }
 
 .nav-list a:hover,
 .nav-list a:focus {
-    color: hsl(68, 10%, 40%);
-    background-color: hsl(53deg, 100%, 95%);
+    color: hsl((var(--nav-color)));
+    background-color: hsl((var(--bg-color)));
     border-radius: 0.5rem;
     outline: none;
     padding: 1em;
