@@ -170,7 +170,7 @@ table {
 
 The base code that I built upon for this project is the same code that I used for my mobile style stage, albeit with a few adjestments made to the color pallete of the stage for both accessibility and aesthetic purposes. Below is the mobile style stage URL for you to visit and compare if you wish to do so.
 
-[Click here for Mobile Style Stage Repo](https://github.com/RVCC-IDMX/ss-mobile-ao-g00298371)
+[Click here for Mobile Style Stage Repo.](https://github.com/RVCC-IDMX/ss-mobile-ao-g00298371)
 
  ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ 
 
