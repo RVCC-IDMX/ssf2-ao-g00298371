@@ -146,6 +146,11 @@ p a {
     font-weight: 600;
 }
 
+.nav-list a {
+    text-decoration: none;
+    color: white;
+}
+
 .nav-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(10ch, 1fr));
@@ -155,11 +160,6 @@ p a {
     grid-gap: 1rem;
     background-color: hsl((var(--nav-color)));
     border-radius: 1rem;
-}
-
-.nav-list a {
-    text-decoration: none;
-    color: hsl ((var(--white)));
 }
 
 .nav-list a:hover,
